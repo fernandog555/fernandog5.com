@@ -73,7 +73,7 @@ export default function Home({ setPage }) {
         <div className="flex flex-wrap justify-center gap-4">
           <button
             onClick={() => setPage("projects")}
-            className="px-6 py-3 rounded-lg border border-cyan-400 bg-cyan-500/10 text-cyan-700 dark:text-cyan-200 font-semibold hover:-translate-y-0.5 transition-transform"
+            className="px-6 py-3 rounded-lg border border-cyan-500 bg-white/90 text-cyan-800 font-semibold shadow-sm hover:-translate-y-0.5 hover:shadow transition-transform dark:border-cyan-400 dark:bg-cyan-500/10 dark:text-cyan-200"
           >
             VIEW MY WORK
           </button>
@@ -81,14 +81,14 @@ export default function Home({ setPage }) {
           <a
             href="/Resume.pdf"
             download
-            className="px-6 py-3 rounded-lg border border-neutral-300 dark:border-neutral-700 font-semibold hover:-translate-y-0.5 transition-transform"
+            className="px-6 py-3 rounded-lg border border-neutral-300 bg-white/90 text-neutral-800 font-semibold shadow-sm hover:-translate-y-0.5 hover:shadow transition-transform dark:border-neutral-700 dark:bg-neutral-900/60 dark:text-neutral-100"
           >
             DOWNLOAD RESUME
           </a>
 
           <a
             href="mailto:floresfernando2005@gmail.com"
-            className="px-6 py-3 rounded-lg border border-neutral-300 dark:border-neutral-700 font-semibold hover:-translate-y-0.5 transition-transform"
+            className="px-6 py-3 rounded-lg border border-neutral-300 bg-white/90 text-neutral-800 font-semibold shadow-sm hover:-translate-y-0.5 hover:shadow transition-transform dark:border-neutral-700 dark:bg-neutral-900/60 dark:text-neutral-100"
           >
             EMAIL ME
           </a>
