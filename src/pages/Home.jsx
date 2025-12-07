@@ -3,7 +3,7 @@ export default function Home({ setPage }) {
     <section className="max-w-5xl mx-auto flex flex-col gap-10 px-6 text-center">
       <div className="flex flex-col items-center gap-5 pt-4">
         <div className="w-28 h-28 rounded-full border border-cyan-400/70 bg-gradient-to-br from-cyan-300/60 to-indigo-500/50 shadow-lg shadow-cyan-200/40 dark:shadow-cyan-900/50 overflow-hidden">
-          <img src="/profile.svg" alt="Profile" className="h-full w-full object-cover" />
+          <img src="/IMG_1894.JPG" alt="Fernando Flores headshot" className="h-full w-full object-cover" />
         </div>
 
         <div className="space-y-2">
