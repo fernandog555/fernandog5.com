@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "7abc",
+    description:
+      "Bilingual marketing site for a convenience store with money transfers, mobile top-ups, and check cashing, built on Next.js with a light/dark toggle and instant ES/EN switch.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    link: "https://github.com/fernandog555/7abc",
+    live: "https://7abc.vercel.app/",
+  },
+  {
     title: "Lone Star Hoods",
     description:
       "Marketing site for a commercial vent hood cleaning business, built with the Next.js App Router, TypeScript, and CSS Modules, optimized for responsive service pages and lead capture.",
