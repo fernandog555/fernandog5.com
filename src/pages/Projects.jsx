@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Lone Star Hoods",
+    description:
+      "Marketing site for a commercial vent hood cleaning business, built with the Next.js App Router, TypeScript, and CSS Modules, optimized for responsive service pages and lead capture.",
+    tech: ["Next.js", "TypeScript", "CSS Modules", "Vercel"],
+    link: "https://github.com/fernandog555/LoneStarHoods",
+    live: "https://lonestarhoods.vercel.app/",
+  },
+  {
     title: "Study Spots @ UTD",
     description:
       "FastAPI + PostgreSQL web app that helps UTD students discover, review, and save study locations with category filters, auth, and a custom REST API.",
