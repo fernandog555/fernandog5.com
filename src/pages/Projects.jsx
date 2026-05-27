@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "MaxGuardian",
+    description:
+      "Full-stack multi-tenant SaaS compliance platform for Money Services Businesses. Supports Superadmin, Business Owner, Manager, and Agent roles with shared-schema PostgreSQL tenant isolation, 80+ REST API endpoints, JWT auth, TOTP-based 2FA, AES-256 encryption at rest, AWS Rekognition face-based customer lookup, and an Excel data migration pipeline parsing 18,895+ historical transactions.",
+    tech: ["Node.js", "Express", "React 18", "PostgreSQL", "AWS Rekognition", "JWT", "Vercel"],
+    link: null,
+    live: "https://maxguardian.vercel.app/login",
+  },
+  {
     title: "7abc",
     description:
       "Bilingual marketing site for a convenience store with money transfers, mobile top-ups, and check cashing, built on Next.js with a light/dark toggle and instant ES/EN switch.",
@@ -75,14 +83,16 @@ export default function Projects({ setPage }) {
                 >
                   View Live ↗
                 </a>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-neutral-200 bg-white/80 text-cyan-600 font-semibold shadow-sm transition-transform hover:-translate-y-0.5 hover:shadow hover:bg-[#e6f5ff] hover:text-cyan-700 hover:border-cyan-300 dark:border-neutral-800 dark:bg-neutral-800/70 dark:text-cyan-200 dark:hover:bg-[#0f1b38] dark:hover:text-cyan-100 dark:hover:border-cyan-400"
-                >
-                  View on GitHub →
-                </a>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-neutral-200 bg-white/80 text-cyan-600 font-semibold shadow-sm transition-transform hover:-translate-y-0.5 hover:shadow hover:bg-[#e6f5ff] hover:text-cyan-700 hover:border-cyan-300 dark:border-neutral-800 dark:bg-neutral-800/70 dark:text-cyan-200 dark:hover:bg-[#0f1b38] dark:hover:text-cyan-100 dark:hover:border-cyan-400"
+                  >
+                    View on GitHub →
+                  </a>
+                )}
               </div>
             </div>
           </article>
