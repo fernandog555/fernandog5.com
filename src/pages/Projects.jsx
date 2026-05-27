@@ -5,7 +5,7 @@ const projects = [
       "Full-stack multi-tenant SaaS compliance platform for Money Services Businesses. Supports Superadmin, Business Owner, Manager, and Agent roles with shared-schema PostgreSQL tenant isolation, 80+ REST API endpoints, JWT auth, TOTP-based 2FA, AES-256 encryption at rest, AWS Rekognition face-based customer lookup, and an Excel data migration pipeline parsing 18,895+ historical transactions.",
     tech: ["Node.js", "Express", "React 18", "PostgreSQL", "AWS Rekognition", "JWT", "Vercel"],
     link: null,
-    live: "https://maxguardian.vercel.app/login",
+    live: "https://maxguardian.vercel.app",
   },
   {
     title: "7abc",
